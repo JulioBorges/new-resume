@@ -14,7 +14,7 @@ import Data from "../Data/pt";
 const IndexPage = () => (
   <div>
     <Header {...Data.header}/>
-    <About />
+    <About {...Data.about}/>
     <Resume />
     <Portfolio />
     <Testimonials />

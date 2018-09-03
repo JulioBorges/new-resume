@@ -13,10 +13,12 @@ import Data from "../Data/en";
 
 const IndexPage = () => (
     <div>
-        <Header {...Data}/>
-        <About />
+        <Header {...Data.header} />
+        <About {...Data.about}/>
         <Resume />
         <Portfolio />
+        <Testimonials />
+        <Footer />
     </div>
 );
 

@@ -1,11 +1,9 @@
 import header from './header';
-/*import careerProfile from './careerProfile';
-import experiences from './experiences';
-import projects from './projects';
-import tags from './tags';*/
+import about from './about';
 
 export const data = {
-    header
+    header,
+    about
 };
 
 export default data;

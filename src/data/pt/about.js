@@ -1,15 +1,13 @@
 const about = {
     title: 'Sobre mim',
-    textHtml: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem' +
-        'accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae' +
-        'ab illo inventore veritatis et quasi architecto beatae vitae dicta' +
-        'sunt explicabo.Nemo enim ipsam voluptatem quia voluptas sit' +
-        'aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos' +
-        'qui ratione voluptatem sequi nesciunt.Neque porro quisquam est, qui' +
-        'dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed' +
-        'quia non numquam eius modi tempora incidunt ut labore et dolore magnam' +
-        'aliquam quaerat voluptatem.Ut enim ad minima veniam, quis nostrum' +
-        'exercitationem ullam corporis suscipit laboriosam.',
+    textHtml: 'Sou um <span>entusiasta em tecnologia</span>, atuo como ' +
+        '<span>desenvolvedor Full Stack Mobile e palestrante</span>. Trabalho com análise e ' +
+        'engenharia de sistemas desde 2009 desenvolvendo em plataformas móveis diversas. ' +
+        'Atuo no desenvolvimento ponta a ponta desde o desenvolvimento de <span>APIs, microsserviços ' +
+        'e tecnologias para servidor</span>. como também o <span>desenvolvimento de aplicações Web</span> para ' +
+        'comunicação com aplicações Mobile e Apis. Achou interessante? Então' +
+        '<a className="smoothscroll" href="#about"> comece a rolar a página</a> e veja mais' +
+        '<a className="smoothscroll" href="#about"> sobre mim</a>.',
     contactTitle: 'Detalhes de contato',
     downloadButton: 'Baixar Currículo',
     downloadResumeLink: '../assets/download/JulioCezar.pdf'

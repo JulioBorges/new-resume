@@ -5,12 +5,11 @@ const about = {
         'engenharia de sistemas desde 2009 desenvolvendo em plataformas móveis diversas. ' +
         'Atuo no desenvolvimento ponta a ponta desde o desenvolvimento de <span>APIs, microsserviços ' +
         'e tecnologias para servidor</span>. como também o <span>desenvolvimento de aplicações Web</span> para ' +
-        'comunicação com aplicações Mobile e Apis. Achou interessante? Então' +
-        '<a className="smoothscroll" href="#about"> comece a rolar a página</a> e veja mais' +
-        '<a className="smoothscroll" href="#about"> sobre mim</a>.',
+        'comunicação com aplicações Mobile e Apis. Em minha carreira me tornei um profissional  ' +
+        'multidisciplinar, pois trabalhei com diversas plataformas, linguagens e paradigmas de programação. ',
     contactTitle: 'Detalhes de contato',
     downloadButton: 'Baixar Currículo',
-    downloadResumeLink: '../assets/download/JulioCezar.pdf'
+    downloadResumeLink: 'assets/download/JulioCezar.pdf'
 };
 
 export default about;

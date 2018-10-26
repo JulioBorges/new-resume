@@ -1,6 +1,6 @@
 import React from "react";
 import { FaCloudDownload } from "react-icons/lib/fa";
-import profilePic from "../assets/images/profilepic.jpg";
+import profilePic from "../assets/images/profilepic.png";
 
 const About = props => (
     <section id="about">
@@ -16,13 +16,13 @@ const About = props => (
                     <div className="columns contact-details">
                         <h2>{props.contactTitle}</h2>
                         <p className="address">
-                            <span>Jonathan Doe</span>
+                            <span>{props.contactName}</span>
                             <br />
-                            <span>1600 Amphitheatre Parkway <br /> Mountain View, CA 94043 US</span>
+                            <span>{props.address1} <br /> {props.address2}</span>
                             <br />
-                            <span>(123)456-7890</span>
+                            <span>{props.phone}</span>
                             <br />
-                            <span>anyone@website.com</span>
+                            <span><a href={"mailto:" + props.email}>{props.email}</a></span>
                         </p>
                     </div>
                     <div className="columns download">

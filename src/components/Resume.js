@@ -4,11 +4,11 @@ import Education from "./Education";
 import Work from "./Work";
 import Skills from "./Skills";
 
-const Resume = () => (
+const Resume = props => (
   <section id="resume">
-    <Education />
-    <Work />
-    <Skills />
+    <Education {...props.education}/>
+    <Work {...props.work}/>
+    <Skills {...props.skills}/>
   </section>
 );
 

@@ -1,11 +1,11 @@
 const header = {
     navigation: {
         menuItens: [
-            { text: 'Home', class: 'current', url: '#' },
-            { text: 'Sobre', class: '', url: '#about' },
-            { text: 'Currículo', class: '', url: '#resume' },
-            { text: 'Trabalhos', class: '', url: '#portfolio' },
-            { text: 'English', class: '', url: 'en' }
+            { id: 1, text: 'Home', class: 'current', url: '#' },
+            { id: 2, text: 'Sobre', class: '', url: '#about' },
+            { id: 3, text: 'Currículo', class: '', url: '#resume' },
+            { id: 4, text: 'Trabalhos', class: '', url: '#portfolio' },
+            { id: 5, text: 'English', class: '', url: 'en' }
         ]
     },
     banner: {

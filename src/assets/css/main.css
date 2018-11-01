@@ -87,7 +87,7 @@ pre {
    word-wrap: break-word;
 }
 
-blockquote, q { quotes: &#8220 &#8220; }
+blockquote, q { quotes: #8220 #8220; }
 
 blockquote:before, blockquote:after,
 q:before, q:after {
@@ -169,7 +169,7 @@ h3 { font-size: 22px; line-height: 30px; margin-bottom: 12px; }
 h4 { font-size: 20px; line-height: 30px; margin-bottom: 6px; }
 h5 { font-size: 18px; line-height: 30px; }
 h6 { font-size: 14px; line-height: 30px; }
-.subheader { }
+
 
 p { margin: 0 0 30px 0; }
 p img { margin: 0; }
@@ -313,8 +313,6 @@ ol ol, ol ul { margin: 6px 0 6px 30px; }
 ul ul li, ul ol li,
 ol ol li, ol ul li { margin-bottom: 6px; }
 li { line-height: 18px; margin-bottom: 12px; }
-ul.large li { }
-li p { }
 
 /* ---------------------------------------------------------------------
 /*  Stats Tab Markup
@@ -397,14 +395,14 @@ dd { margin: 0 0 0 20px; }
 	counter-increment: definitions;
 }
 .dictionary-style dd:before {
-  .pagination {
-	content: counter(definitions, decimal) ". ";
+  margin: 36px auto;
+  text-align: center;
 }
 
-/* Pagination */
-   margin: 36px auto;
-   text-align: center;
+.dictionary-style dd:before .pagination {
+  content: counter(definitions, decimal) ". ";
 }
+
 .pagination ul li {
    display: inline-block;
    margin: 0;
@@ -444,7 +442,6 @@ dd { margin: 0 0 0 20px; }
    background-color: #E6E8EB;
 	color: #A9ADB2;
 }
-.pagination .prev, .pagination .next {}
 
 /*  5. Images  --------------------------------------------------------- */
 
@@ -539,7 +536,6 @@ select {
    margin: 0 0 24px 0;
    border: 0;
    outline: none;
-   vertical-align: middle;
    min-width: 225px;
 	max-width: 100%;
    font-size: 15px;
@@ -1172,33 +1168,45 @@ ul#nav li.current a {
   border-radius: 3px 0 0 3px;
 }
 
+.skill-animated {
+  animation: 2s ease;
+  -moz-animation: 2s ease;
+  -webkit-animation: 2s ease;
+}
+
 .photoshop {
   width: 60%;
+  animation:  photoshop 2s ease;
   -moz-animation: photoshop 2s ease;
   -webkit-animation: photoshop 2s ease;
 }
 .illustrator {
   width: 55%;
+  animation: illustrator 2s ease;
   -moz-animation: illustrator 2s ease;
   -webkit-animation: illustrator 2s ease;
 }
 .wordpress {
   width: 50%;
+  animation: wordpress 2s ease;
   -moz-animation: wordpress 2s ease;
   -webkit-animation: wordpress 2s ease;
 }
 .css {
   width: 90%;
+  animation: css 2s ease;
   -moz-animation: css 2s ease;
   -webkit-animation: css 2s ease;
 }
 .html5 {
   width: 80%;
+  animation: html5 2s ease;
   -moz-animation: html5 2s ease;
   -webkit-animation: html5 2s ease;
 }
 .jquery {
   width: 50%;
+  animation: jquery 2s ease;
   -moz-animation: jquery 2s ease;
   -webkit-animation: jquery 2s ease;
 }
@@ -1293,6 +1301,105 @@ ul#nav li.current a {
   }
 }
 @-webkit-keyframes jquery {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 50%;
+  }
+}
+
+@-moz-keyframes photoshop {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 60%;
+  }
+}
+@-moz-keyframes illustrator {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 55%;
+  }
+}
+@-moz-keyframes wordpress {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 50%;
+  }
+}
+@-moz-keyframes css {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 90%;
+  }
+}
+@-moz-keyframes html5 {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 80%;
+  }
+}
+@-moz-keyframes jquery {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 50%;
+  }
+}
+
+@keyframes photoshop {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 60%;
+  }
+}
+@keyframes illustrator {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 55%;
+  }
+}
+@keyframes wordpress {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 50%;
+  }
+}
+@keyframes css {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 90%;
+  }
+}
+@keyframes html5 {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+@keyframes jquery {
   0% {
     width: 0px;
   }
@@ -1652,6 +1759,7 @@ call-to-action .button {
 /* Hide the slides before the JS is loaded. Avoids image jumping */
 .flexslider .slides > li {
   display: none;
+  backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
 }
 /* Suggested container for slide animation setups. Can replace this with your own */
@@ -1789,7 +1897,6 @@ call-to-action .button {
   margin: 12px 0;
   color: #ebeeee;
   display: inline-block;
-  float: left;
   width: 26%;
 }
 #contact input,

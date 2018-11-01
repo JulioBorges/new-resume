@@ -11,7 +11,7 @@ const Work = props => (
     <div className="nine columns main-col">
       {props.roles.map(item => {
         return (
-          <div className="row item">
+          <div className="row item" key={item.id}>
             <div className="twelve columns">
               <h3>{item.company}</h3>
               <p className="info">

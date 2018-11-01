@@ -21,6 +21,7 @@ const resume = {
         title: 'Experiência',
         roles: [
             {
+                id: 1,
                 company: 'Inovação Computação Móvel',
                 role: 'Desenvolvedor FullStack',
                 period: '2016 - presente',
@@ -30,6 +31,7 @@ const resume = {
                     'desenvolvimento de APIs utilizando as tecnologias de Web Api .NET Framework e .NET Core.'
             },
             {
+                id: 2,
                 company: 'Inovação Computação Móvel',
                 role: 'Analista desenvolvedor Pleno, Sênior',
                 period: '2012 - 2016',
@@ -39,6 +41,7 @@ const resume = {
                     'utilizando a plataforma .NET e a linguagem C#.'
             },
             {
+                id: 3,
                 company: 'Inovação Computação Móvel',
                 role: 'Analista desenvolvedor júnior',
                 period: '2009 - 2012',
@@ -47,6 +50,7 @@ const resume = {
                     'Desktop utilizando a linguagem Pascal, utilizando Delphi 7'
             },
             {
+                id: 4,
                 company: 'Inovação Computação Móvel',
                 role: 'Analista desenvolvedor júnior',
                 period: '2009 - 2012',
@@ -56,7 +60,25 @@ const resume = {
             }]
     },
     skills: {
-
+        title: "Competências",
+        text: "Abaixo veja detalhadamente as competências das quais sou especialista.",
+        skills: [
+            {
+                id: 1,
+                name: "C#",
+                width: "90%"
+            },
+            {
+                id:2,
+                name: "Java",
+                width: "80%"
+            },
+            {
+                id:3,
+                name: "Kotlin",
+                width: "60%"
+            }
+        ]
     }
 };
 

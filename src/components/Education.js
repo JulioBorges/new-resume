@@ -9,22 +9,22 @@ const Education = props => (
     </div>
 
     <div className="nine columns main-col">
-    {props.formation.map(item => {
-                return (
-                  <div className="row item">
-                  <div className="twelve columns">
-                    <h3>{item.school}</h3>
-                    <p className="info">
-                     {item.course}
-                      <span>&bull;</span>
-                      <em className="date">{item.date}</em>
-                    </p>
-                    <p>
-                      {item.description}
-                    </p>
-                  </div>
-                </div>)
-            })}
+      {props.formation.map(item => {
+        return (
+          <div className="row item" key={item.date}>
+            <div className="twelve columns">
+              <h3>{item.school}</h3>
+              <p className="info">
+                {item.course}
+                <span>&bull;</span>
+                <em className="date">{item.date}</em>
+              </p>
+              <p>
+                {item.description}
+              </p>
+            </div>
+          </div>)
+      })}
     </div>
   </div>
 );

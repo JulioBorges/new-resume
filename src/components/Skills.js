@@ -1,49 +1,26 @@
 import React from "react";
 
-const Skills = () => (
+const Skills = props => (
   <div className="row skill">
     <div className="three columns header-col">
       <h1>
-        <span>Skills</span>
+        <span>{props.title}</span>
       </h1>
     </div>
 
     <div className="nine columns main-col">
       <p>
-        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-        accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
-        illo inventore veritatis et quasi architecto beatae vitae dicta sunt
-        explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
-        odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-        voluptatem sequi nesciunt.
+        {props.text}
       </p>
-
       <div className="bars">
         <ul className="skills">
-          <li>
-            <span className="bar-expand photoshop" />
-            <em>Photoshop</em>
-          </li>
-          <li>
-            <span className="bar-expand illustrator" />
-            <em>Illustrator</em>
-          </li>
-          <li>
-            <span className="bar-expand wordpress" />
-            <em>Wordpress</em>
-          </li>
-          <li>
-            <span className="bar-expand css" />
-            <em>CSS</em>
-          </li>
-          <li>
-            <span className="bar-expand html5" />
-            <em>HTML5</em>
-          </li>
-          <li>
-            <span className="bar-expand nodejs" />
-            <em>Nodejs</em>
-          </li>
+          {props.skills.map(item => {
+            return (
+              <li key={item.name}>
+              <span className="bar-expand " syle="width:{{item.width}} animation: 2s ease; -moz-animation: 2s ease; -webkit-animation: 2s ease;"/>
+                <em>{item.name}</em>
+              </li>)
+          })}
         </ul>
       </div>
     </div>

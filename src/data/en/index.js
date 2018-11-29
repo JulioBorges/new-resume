@@ -1,13 +1,13 @@
 import header from './header';
 import about from './about';
-/*import careerProfile from './careerProfile';
-import experiences from './experiences';
-import projects from './projects';
-import tags from './tags';*/
+import resume from './resume';
+import portfolio from './portfolio';
 
 export const data = {
     header,
-    about
+    about,
+    resume,
+    portfolio
 };
 
 export default data;

@@ -9,16 +9,18 @@ const Footer = () => (
         <SocialLinks />
 
         <ul className="copyright">
-          <li>&copy; Copyright 2018 CeeVee</li>
+          <li>&copy; Copyright {(new Date().getFullYear())} Julio Borges</li>
           <li>
             Design by{" "}
-            <a title="Styleshout" href="http://www.styleshout.com/">
+            <a title="Styleshout" href="https://www.styleshout.com/">
               Styleshout
             </a>
           </li>
           <li>
-            Developed in React ⚛️ by{" "}
-            <a href="http://www.amanhimself.me">Aman Mittal</a>
+            Developed with React ⚛️ by Julio Borges using{" "}
+            <a title="GatsbyJS" href="https://www.gatsbyjs.org/">
+              Gatsby JS
+            </a>
           </li>
         </ul>
       </div>

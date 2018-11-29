@@ -1,18 +1,14 @@
 const about = {
     title: 'Sobre mim',
-    textHtml: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem' +
-        'accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae' +
-        'ab illo inventore veritatis et quasi architecto beatae vitae dicta' +
-        'sunt explicabo.Nemo enim ipsam voluptatem quia voluptas sit' +
-        'aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos' +
-        'qui ratione voluptatem sequi nesciunt.Neque porro quisquam est, qui' +
-        'dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed' +
-        'quia non numquam eius modi tempora incidunt ut labore et dolore magnam' +
-        'aliquam quaerat voluptatem.Ut enim ad minima veniam, quis nostrum' +
-        'exercitationem ullam corporis suscipit laboriosam.',
-    contactTitle: 'Detalhes de contato',
-    downloadButton: 'Baixar Currículo',
-    downloadResumeLink: '../assets/download/JulioCezar.pdf'
+    textHtml: 'I\'m a technology enthusiast, actually working as Full Stack Mobile developer and a speaker. Work with analysis and systems engineering since 2009 developing on various mobile platforms.I work on end-to - end development from the development of APIs, microservices and server technologies.as well as the development of Web applications for communication with Mobile and Apis applications.In my career I became a multidisciplinary professional, since I worked with several platforms, languages and programming paradigms. ',
+    contactTitle: 'Contact details',
+    downloadButton: 'Download resume',
+    downloadResumeLink: 'static/download/JulioCezar.pdf',
+    contactName: 'Julio Cezar Borges',
+    address1: 'Divinópolis',
+    address2: 'Minas Gerais, Brasil',
+    phone: '+5537988055304',
+    email: 'borges.juliocezar@gmail.com'
 };
 
 export default about;

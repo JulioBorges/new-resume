@@ -35,7 +35,7 @@ const resume = {
                 company: 'Inovação Computação Móvel',
                 role: 'Analista desenvolvedor Pleno, Sênior',
                 period: '2012 - 2016',
-                roleDescription: 'Desenvolvimento de aplicações móveis usando Java e Kotlin aplicações mobile Android. ' +
+                roleDescription: 'Desenvolvimento de aplicações móveis usando Java e Kotlin. ' +
                     'Análise, manutenção e desenvolvimento de aplicações Móveis Windows Mobile com a linguagem C#, utilizando ' +
                     'a plataforma Compact Framework. Análise, desenvolvimento e manutenção de aplicações Desktop desenvolvidas ' +
                     'utilizando a plataforma .NET e a linguagem C#.'
@@ -45,18 +45,18 @@ const resume = {
                 company: 'Inovação Computação Móvel',
                 role: 'Analista desenvolvedor júnior',
                 period: '2009 - 2012',
-                roleDescription: 'Desenvolvimento de aplicações móveis para dispositivos PalmOS (Pascal), Windows Mobile(C#) e concepção ' +
+                roleDescription: 'Desenvolvimento de aplicações móveis para dispositivos PalmOS (Pascal), Windows Mobile(C#), concepção ' +
                     'e migração de aplicações PalmOS e Windows Mobile para Android. Desenvolvimento e manutenção de aplicações ' +
                     'Desktop utilizando a linguagem Pascal, utilizando Delphi 7'
             },
             {
                 id: 4,
-                company: 'Inovação Computação Móvel',
-                role: 'Analista desenvolvedor júnior',
-                period: '2009 - 2012',
-                roleDescription: 'Desenvolvimento de aplicações móveis para dispositivos PalmOS (Pascal), Windows Mobile(C#) e concepção ' +
-                    'e migração de aplicações PalmOS e Windows Mobile para Android. Desenvolvimento e manutenção de aplicações ' +
-                    'Desktop utilizando a linguagem Pascal, utilizando Delphi 7'
+                company: 'CEFET - MG',
+                role: 'Estagiário de TI',
+                period: '2008 - 2009',
+                roleDescription: 'Gerenciamento e manutenção de servidores, aplicações e ' +
+                    'laboratórios de informática. Manutenção e implantação de redes e ' +
+                    'computadores no parque técnológico do instituto.'
             }]
     },
     skills: {
@@ -66,17 +66,47 @@ const resume = {
             {
                 id: 1,
                 name: "C#",
-                width: "90%"
+                width: "95%"
             },
             {
-                id:2,
+                id: 2,
+                name: "Scrum",
+                width: "100%"
+            },
+            {
+                id: 3,
                 name: "Java",
-                width: "80%"
+                width: "85%"
             },
             {
-                id:3,
+                id: 4,
                 name: "Kotlin",
-                width: "60%"
+                width: "78%"
+            },
+            {
+                id: 5,
+                name: "Android",
+                width: "70%"
+            },
+            {
+                id: 6,
+                name: "HTML5",
+                width: "70%"
+            },
+            {
+                id: 7,
+                name: "Javascript",
+                width: "70%"
+            },
+            {
+                id: 8,
+                name: "Angular JS",
+                width: "70%"
+            },
+            {
+                id: 9,
+                name: "Angular",
+                width: "50%"
             }
         ]
     }

@@ -6,8 +6,8 @@ import ScrollDown from "./ScrollDown";
 
 const Header = props => (
   <header id="home">
-    <Navigation { ...props.navigation}/>
-    <Banner { ...props.banner} />
+    <Navigation {...props.navigation} />
+    <Banner {...props.banner} />
     <ScrollDown />
   </header>
 );

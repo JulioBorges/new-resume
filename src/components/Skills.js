@@ -17,7 +17,7 @@ const Skills = props => (
           {props.skills.map(item => {
             return (
               <li key={item.name}>
-              <span className="bar-expand " syle="width:{{item.width}} animation: 2s ease; -moz-animation: 2s ease; -webkit-animation: 2s ease;"/>
+                <span className="bar-expand bar-expand-anim" style={{ width: item.width }} />
                 <em>{item.name}</em>
               </li>)
           })}

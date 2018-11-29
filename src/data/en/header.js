@@ -1,22 +1,20 @@
 const header = {
     navigation: {
         menuItens: [
-            { text: 'Home', class: 'current', url: '#' },
-            { text: 'About', class: '', url: '#about' },
-            { text: 'Resume', class: '', url: '#resume' },
-            { text: 'Work', class: '', url: '#portfolio' },
-            { text: 'Português', class: '', url: '..' }
+            { id: 1, text: 'Home', class: 'current', url: '#' },
+            { id: 2, text: 'About', class: '', url: '#about' },
+            { id: 3, text: 'Resume', class: '', url: '#resume' },
+            //{ id: 4, text: 'Work', class: '', url: '#portfolio' },
+            { id: 4, text: 'Português', class: '', url: '..' }
         ]
     },
     banner: {
         name: 'Julio Borges',
-        simplifiedResume: 'I\'m an <span>enthusiast in technology</span>, acting as <span>systems ' +
-            'analyst and speaker</span>, developing, managing and planning systems for mobile automation. ' +
-            'Work with analysis and systems engineering since 2009 developing on various mobile platforms. ' +
-            'Not only that, but <span>I also develop web applications using the latest technologies</span>. ' +
-            'Did you find it interesting? So' +
-            '<a className="smoothscroll" href="#about"> start scrolling the page</a> and see more' +
-            '<a className="smoothscroll" href="#about"> about me</a>.'
+        simplifiedResume: 'I am a <span>tech enthusiast</span>, currently working as ' +
+            'a <span>Full Stack Mobile developer</span>. I am also a <span>speaker at ' +
+            'several technology events in Brazil</span>. Did you find it interesting? ' +
+            '<a className="smoothscroll" href="#about">So start <span>scrolling the page<span></a> and see more ' +
+            '<a className="smoothscroll" href="#about"><span>about me</span></a>.'
     }
 };
 

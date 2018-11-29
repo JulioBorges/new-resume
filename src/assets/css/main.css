@@ -875,14 +875,15 @@ header .banner-text h1 {
 }
 header .banner-text h3 {
   font: 18px/1.9em "librebaskerville-regular", serif;
-  color: #a8a8a8;
+  color: #fff;
   margin: 0 auto;
   width: 70%;
   text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
 }
+
 header .banner-text h3 span,
 header .banner-text h3 a {
-  color: #fff;
+  color: #dadadaea;
 }
 header .banner-text hr {
   width: 60%;
@@ -1166,6 +1167,12 @@ ul#nav li.current a {
   height: 42px;
   line-height: 42px;
   border-radius: 3px 0 0 3px;
+}
+
+.bar-expand-anim {
+  animation: 2s ease; 
+  -moz-animation: 2s ease; 
+  -webkit-animation: 2s ease;
 }
 
 .skill-animated {
@@ -1998,7 +2005,7 @@ footer {
 
 footer a,
 footer a:visited {
-  color: #525252;
+  color: #fff;
 }
 footer a:hover,
 footer a:focus {
@@ -2015,6 +2022,7 @@ footer .copyright li {
   margin: 0;
   padding: 0;
   line-height: 24px;
+  color: #fff
 }
 .ie footer .copyright li {
   display: inline;
@@ -2142,7 +2150,21 @@ footer .social li:first-child {
  ------------------------------------------------------------------- */
  #resume h1 { font: 16px/24px  }
  #resume .main-col { padding-right: 5%; }
-
+ 
+ #resume .info {
+  font: 16px/24px 'librebaskerville-italic', serif;
+  color: #6E7881;
+  margin-bottom: 18px;
+  margin-top: 9px;
+}
+#resume .info span {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+#resume .date {
+  font: 15px/24px 'opensans-regular', sans-serif;
+  margin-top: 6px;
+}
  /* Testimonials Section
  ------------------------------------------------------------------- */
  #testimonials .header-col h1:before {

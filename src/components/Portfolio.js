@@ -10,11 +10,11 @@ import Girl from "../assets/images/portfolio/girl.jpg";
 import Origami from "../assets/images/portfolio/origami.jpg";
 import Retrocam from "../assets/images/portfolio/retrocam.jpg";
 
-const Portfolio = () => (
+const Portfolio = props => (
   <section id="portfolio">
     <div className="row">
       <div className="twelve columns collapsed">
-        <h1>Check Out Some of My Works.</h1>
+        <h1>{props.title}</h1>
 
         <div
           id="portfolio-wrapper"

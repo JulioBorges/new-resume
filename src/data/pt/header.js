@@ -4,13 +4,13 @@ const header = {
             { id: 1, text: 'Home', class: 'current', url: '#' },
             { id: 2, text: 'Sobre', class: '', url: '#about' },
             { id: 3, text: 'Currículo', class: '', url: '#resume' },
-            { id: 4, text: 'Trabalhos', class: '', url: '#portfolio' },
-            { id: 5, text: 'English', class: '', url: 'en' }
+            //{ id: 4, text: 'Trabalhos', class: '', url: '#portfolio' },
+            { id: 4, text: 'English', class: '', url: 'en' }
         ]
     },
     banner: {
         name: 'Julio Borges',
-        simplifiedResume: 'Sou um <span>entusiasta em tecnologia</span>, atuamente trabalho como ' +
+        simplifiedResume: 'Sou um <span>entusiasta em tecnologia</span>, atualmente trabalho como ' +
             '<span>desenvolvedor Full Stack Mobile</span>. Também sou palestrante em vários eventos ' +
             'de tecnologia pelo Brasil. Achou interessante? Então' +
             '<a className="smoothscroll" href="#about"> comece a rolar a página</a> e veja mais' +

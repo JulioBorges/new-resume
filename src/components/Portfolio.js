@@ -1,6 +1,5 @@
 import React from "react";
-import { FaPlus, FaTag } from "react-icons/lib/fa";
-
+/*import { FaPlus, FaTag } from "react-icons/lib/fa";
 import Coffee from "../assets/images/portfolio/coffee.jpg";
 import Console from "../assets/images/portfolio/console.jpg";
 import Judah from "../assets/images/portfolio/judah.jpg";
@@ -8,10 +7,11 @@ import IntoTheLight from "../assets/images/portfolio/into-the-light.jpg";
 import Farmerboy from "../assets/images/portfolio/farmerboy.jpg";
 import Girl from "../assets/images/portfolio/girl.jpg";
 import Origami from "../assets/images/portfolio/origami.jpg";
-import Retrocam from "../assets/images/portfolio/retrocam.jpg";
+import Retrocam from "../assets/images/portfolio/retrocam.jpg";*/
 
 const Portfolio = props => (
   <section id="portfolio">
+    {/*
     <div className="row">
       <div className="twelve columns collapsed">
         <h1>{props.title}</h1>
@@ -158,7 +158,7 @@ const Portfolio = props => (
         </div>
       </div>
 
-      {/* <div id="modal-01" className="popup-modal mfp-hide">
+      <div id="modal-01" className="popup-modal mfp-hide">
         <img
           className="scale-with-grid"
           src="images/portfolio/modals/m-coffee.jpg"
@@ -356,8 +356,9 @@ const Portfolio = props => (
           <a href="http://www.behance.net">Details</a>
           <a className="popup-modal-dismiss">Close</a>
         </div>
-      </div> */}
+      </div>
     </div>
+    */}
   </section>
 );
 

@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import Helmet from "react-helmet";
 import { siteMetadata } from "../../gatsby-config";
-import "../assets/favicon.png"
+import favicon from "../assets/favicon.png"
 
 const TemplateWrapper = ({ children }) => (
   <div>
@@ -20,7 +20,7 @@ const TemplateWrapper = ({ children }) => (
       />
 
       <title>{siteMetadata.title}</title>
-      <link rel="icon" href="../assets/favicon.png" type="image/x-icon" />
+      <link rel="icon" href={favicon} type="image/x-icon" />
     </Helmet>
     {children()}
   </div>

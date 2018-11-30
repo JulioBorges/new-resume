@@ -9,7 +9,7 @@ const about = {
         'multidisciplinar, pois trabalhei com diversas plataformas, linguagens e paradigmas de programação. ',
     contactTitle: 'Detalhes de contato',
     downloadButton: 'Baixar Currículo',
-    downloadResumeLink: 'static/download/JulioCezar.pdf',
+    downloadResumeLink: 'static/download/JulioBorges_pt-br.pdf',
     contactName: 'Julio Cezar Borges',
     address1: 'Divinópolis',
     address2: 'Minas Gerais, Brasil',

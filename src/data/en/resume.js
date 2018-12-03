@@ -3,7 +3,7 @@ const resume = {
         title: 'Education',
         formation: [
             {
-                school: 'Faculdade Pitágoras',
+                school: 'Pitágoras Faculty',
                 course: 'Information Systems',
                 date: '12/2010',
                 description: 'Bachelor.'
@@ -12,7 +12,7 @@ const resume = {
                 school: 'CEFET - MG',
                 course: 'Electromechanical technician',
                 date: '12/2003',
-                description: ''
+                description: 'Technician.'
             }
         ]
     },

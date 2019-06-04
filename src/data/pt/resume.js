@@ -23,14 +23,22 @@ const resume = {
     roles: [
       {
         id: 1,
+        company: "Grupo SYM",
+        role: "Desenvolvedor Full Stack Sênior",
+        period: "2019 - presente",
+        roleDescription:
+          "Development and maintenance of Web applications, .NET Framework APIs and .NET Core for backend and using technologies Angular, AngularJs and Vue.js for frontend."
+      },
+      {
+        id: 2,
         company: "Social Miner - Inteligência e Marketing de conteúdo",
         role: "Engenheiro de software",
-        period: "2019 - presente",
+        period: "2019 - 2019",
         roleDescription:
           "Desenvolvimento de APIs .NET Core, atuando na engenharia e concepção de microsserviços para a plataforma de marketing e conteúdo digital."
       },
       {
-        id: 2,
+        id: 3,
         company: "Inovação Computação Móvel",
         role: "Desenvolvedor FullStack",
         period: "2016 - 2018",
@@ -41,7 +49,7 @@ const resume = {
           "desenvolvimento de APIs utilizando as tecnologias de Web Api .NET Framework e .NET Core."
       },
       {
-        id: 3,
+        id: 4,
         company: "Inovação Computação Móvel",
         role: "Analista desenvolvedor Pleno, Sênior",
         period: "2012 - 2016",
@@ -52,7 +60,7 @@ const resume = {
           "utilizando a plataforma .NET e a linguagem C#."
       },
       {
-        id: 4,
+        id: 5,
         company: "Inovação Computação Móvel",
         role: "Analista desenvolvedor júnior",
         period: "2009 - 2012",
@@ -62,7 +70,7 @@ const resume = {
           "Desktop utilizando a linguagem Pascal, utilizando Delphi 7"
       },
       {
-        id: 5,
+        id: 6,
         company: "CEFET - MG",
         role: "Estagiário de TI",
         period: "2008 - 2009",

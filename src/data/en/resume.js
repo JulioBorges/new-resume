@@ -21,6 +21,14 @@ const resume = {
     roles: [
       {
         id: 1,
+        company: "Grupo SYM",
+        role: "Senior Full Stack Developer",
+        period: "2019 - today",
+        roleDescription:
+          "Development of APIs with .NET Core, acting on engineering and conception of micros services to the principoal platform of company."
+      },
+      {
+        id: 2,
         company: "Social Miner",
         role: "Software Engineer",
         period: "2019 - today",
@@ -28,7 +36,7 @@ const resume = {
           "Development of APIs with .NET Core, acting on engineering and conception of micros services to the principoal platform of company."
       },
       {
-        id: 2,
+        id: 3,
         company: "Inovação Computação Móvel",
         role: "FullStack Mobile Developer",
         period: "2016 - 2018",
@@ -39,7 +47,7 @@ const resume = {
           ".NET Framework and .NET Core."
       },
       {
-        id: 3,
+        id: 4,
         company: "Inovação Computação Móvel",
         role: "Senior Systems Analyst",
         period: "2012 - 2016",
@@ -50,7 +58,7 @@ const resume = {
           "Desktop applications developed with .NET platform and C#."
       },
       {
-        id: 4,
+        id: 5,
         company: "Inovação Computação Móvel",
         role: "Junior Systems Analyst",
         period: "2009 - 2012",
@@ -60,7 +68,7 @@ const resume = {
           "applications to Android. Development and maintenance of Desktop applications (Delphi 7)."
       },
       {
-        id: 5,
+        id: 6,
         company: "CEFET - MG",
         role: "IT Intern",
         period: "2008 - 2009",

@@ -11,7 +11,7 @@ const header = {
     banner: {
         name: 'Julio Borges',
         simplifiedResume: 'Sou um <span>entusiasta em tecnologia</span>, atualmente trabalho como ' +
-            '<span>desenvolvedor Full Stack Mobile</span>. Também sou palestrante em vários eventos ' +
+            '<span>desenvolvedor Full Stack Sênior</span>. Também sou palestrante em vários eventos ' +
             'de tecnologia pelo Brasil. Achou interessante? Então' +
             '<a className="smoothscroll" href="#about"> comece a rolar a página</a> e veja mais' +
             '<a className="smoothscroll" href="#about"> sobre mim</a>.'

@@ -1,5 +1,6 @@
 import React from "react";
-/*import { FaPlus, FaTag } from "react-icons/lib/fa";
+/*
+import { FaPlus, FaTag } from "react-icons/lib/fa";
 import Coffee from "../assets/images/portfolio/coffee.jpg";
 import Console from "../assets/images/portfolio/console.jpg";
 import Judah from "../assets/images/portfolio/judah.jpg";
@@ -11,8 +12,8 @@ import Retrocam from "../assets/images/portfolio/retrocam.jpg";*/
 
 const Portfolio = props => (
   <section id="portfolio">
-    {/*
     <div className="row">
+      {/*
       <div className="twelve columns collapsed">
         <h1>{props.title}</h1>
 
@@ -357,8 +358,8 @@ const Portfolio = props => (
           <a className="popup-modal-dismiss">Close</a>
         </div>
       </div>
+      */}
     </div>
-    */}
   </section>
 );
 
